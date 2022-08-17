@@ -6,7 +6,7 @@ jobs:
     name: Generate a report for numpy.array_api
     steps:
       - id: run-array-api-tests-reporting-action
-        uses: data-apis/array-api-tests-reporting-action
+        uses: data-apis/array-api-tests-reporting-action@main
         with:
           array-api-tests-module: numpy.array_api
           array-library-install: |
