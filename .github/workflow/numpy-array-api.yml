@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  numpy_array_api_job:
+    runs-on: ubuntu-latest
+    name: Generate a report for numpy.array_api
+    steps:
+      - id: run-array-api-tests-reporting-action
+        uses: data-apis/array-api-tests-reporting-action
+        with:
+          array-api-tests-module: numpy.array_api
+          array-library-install: |
+            python -m install numpy
