@@ -10,4 +10,4 @@ jobs:
         with:
           array-api-tests-module: numpy.array_api
           array-library-install: |
-            python -m install numpy
+            python -m pip install numpy
