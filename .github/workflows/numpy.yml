@@ -1,3 +1,4 @@
+name: Plain NumPy
 on: [push]
 
 jobs:

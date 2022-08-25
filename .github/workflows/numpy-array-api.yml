@@ -1,3 +1,4 @@
+name: numpy.array_api
 on: [push]
 
 jobs:
